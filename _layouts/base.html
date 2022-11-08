@@ -33,32 +33,15 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar">
-        <div class="navbar-nav justify-content-around" style="display: flex; justify-content: space-between; flex: 2;">
-            <div class=" col col-md-4" style="display: flex; justify-content: center">
+        <div class="navbar-nav justify-content-around variable-content" style="display: flex; justify-content: space-between; flex: 2;">
+            <div class="col col-md-4" style="display: flex; justify-content: center">
                 <a class="nav-item nav-link" id="nav-home" href="/"><i class="fa fa-home"></i>&nbsp;Home</a>
                 <a class="nav-item nav-link" id="nav-checklist" href="/problems"><i class="fa fa-list-ul"></i>&nbsp;Problems</a>
             </div>
             <div class="col col-md-1" style="display: flex; justify-content: center">
                 <a class="navbar-brand" href="#">USACO Checklist</a>
             </div>
-            <div class="col col-md-4 logged-in-content" style="display: flex; justify-content: center">
-                <a class="nav-item nav-link disabled">Welcome, </a>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-username"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-user"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" id="nav-sync-usaco" href="/sync-usaco"><i
-                                class="fa fa-refresh"></i>&nbsp;Sync USACO Data</a>
-                        <a class="dropdown-item" id="nav-change-password" href="/change-password"><i
-                                class="fa fa-edit"></i>&nbsp;Change Password</a>
-                        <a id="logout-link" class="dropdown-item" href="#"><i class="fa fa-sign-out"></i>&nbsp;Log
-                            Out</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-4 logged-out-content" style="display: flex; justify-content: center">
+            <div class="col col-md-4" style="display: flex; justify-content: center">
                 <a class="nav-item nav-link" id="nav-login" href="/login"><i
                         class="fa fa-sign-in"></i>&nbsp;Login</a>
                 <a class="nav-item nav-link" id="nav-signup" href="/signup"><i class="fa fa-user-plus"></i>&nbsp;Sign
